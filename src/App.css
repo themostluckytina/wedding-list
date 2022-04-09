@@ -1,38 +1,50 @@
-.App {
+body {
+  background-image: url('https://top-fon.com/uploads/posts/2021-07/1626986852_1-p-rozovii-fon-svadebnii-1.jpg');
+  min-height: 900px;
+  /*
+  background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-family: 'Pangolin', cursive;
+  font-size: 45px;
+  color: #a554a1;
+  text-shadow: 2px 2px wheat;
+}
+.list{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4{
+  font-family: 'Marck Script', cursive;
+  font-size: 23px;
+  color: #a9659b;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  background-color: #a9659b ;
+  padding: 8px;
+  color: whitesmoke;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo{
+ display: flex;
+ justify-content: center;
+ 
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heart{
+  height: 20px;
+  margin: 20px;
+  margin-top: 36px;
+  background-color: #fec1ee;
+  color: grey;
+  font-weight: bold;
 }
